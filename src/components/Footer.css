@@ -1,0 +1,339 @@
+.footCont {
+  color: rgb(255, 255, 255);
+  position: sticky;
+  /* margin-top: 20px; */
+  /* bottom: 0; */
+  min-height: 50vh;
+  width: 100%;
+  background-image: url("./images/back2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* border: 3px solid rgb(163, 7, 7); */
+}
+.footAll {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: linear-gradient(
+    to bottom,
+    rgba(5, 32, 96, 0.9),
+    rgba(1, 0, 8, 0.9)
+  );
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  padding-top: 10px;
+}
+.footAll p {
+  padding-top: 20px;
+}
+.footIn {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  /* border: 1px solid black; */
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footIn ul {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 0 5px;
+  /* border: 1px solid red; */
+}
+.footIn ul li {
+  padding: 10px;
+  list-style-type: none;
+  font-size: 0.9rem;
+  font-weight: 200;
+  font-family: "Akaya";
+  color: white;
+  text-align: center;
+}
+.footIn ul li a {
+  font-family: "Akaya";
+  color: white;
+}
+#icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+/* home */
+.bg {
+  background: linear-gradient(to left, rgba(2, 3, 50, 0.9), rgba(2, 53, 5, 0.4)),
+    url("./images/Edutainment.jpg");
+  /* background-image: url('./images/Edutainment.jpg'); */
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+}
+.bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* home */
+/* home slider  */
+/* .slides{
+  width: 100%;
+  height: 90vh;
+} */
+
+.slidehead {
+  overflow: hidden;
+  height: 90vh;
+  /* border: 4px solid rgb(206, 4, 4); */
+  width: 100%;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  /* opacity: 0; */
+  position: absolute;
+  /* right: 100%; */
+  /* transform: translate(200px); */
+  animation-name: move, fade;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  transition: all 1s ease-in-out;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.slide .active {
+  opacity: 1;
+  right: 0;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes move {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 50px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+#imageCont {
+  height: 100vh;
+  border: 1px solid black;
+}
+/* home slider  */
+
+/* history */
+.histCont {
+ padding: 20px;
+ font-size: 20px;
+ text-align: justify;
+ margin: 2vw 5vw;
+ color: #333;
+}
+
+/* history */
+
+#homeCap {
+  text-shadow: teal;
+  color: rgba(224, 41, 38, 0.9);
+  text-align: center;
+  font-size: 2.2rem;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+  font-family: "akaya";
+  font-weight: 1000;
+}
+
+
+
+/* services */
+.slide-container {
+  /* overflow: hidden; */
+  /* display: flex; */
+  width: 99vw;
+  /* height: 90vh; */
+  /* flex-direction: column; */
+}
+.each-slide img {
+
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.edu {
+  /* border: 1px solid black; */
+  padding-bottom: 200px;
+}
+.edu h3 {
+  color: rgb(5, 39, 119);
+}
+.serveP {
+  padding: 30px;
+  font-size: 18px;
+  text-align: justify;
+  margin: 0 5%;
+}
+.serveListCont {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+.serveList {
+  /* border: 1px solid rgba(25, 6, 168, 0.2); */
+  width: 250px;
+  margin: 2vw;
+  padding: 2px 5px;
+  /* box-shadow: 2px 1px 6px; */
+  border-radius: 10px;
+  /* min-height: 15vh; */
+  height: 150px;
+}
+.serveList:hover{
+  transform: scale(105%);
+  transition: transform 0.5s ease;
+}
+.serveList h3 {
+  font-size: 0.9em;
+}
+.serveList p {
+  /* text-align: center; */
+  font-size: 1em;
+}
+.edufirst {
+  display: flex;
+  flex-direction: row;
+}
+.edufirst li {
+  /* border: 1px solid rgb(38, 0, 255); */
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px; */
+  overflow-x: hidden;
+  /* background-color: aqua; */
+  margin: 2.5vw;
+  list-style-type: none;
+  text-align: center;
+  box-shadow: 2px 4px 6px rgb(140, 140, 247);
+}
+
+.bone {
+  background-color: rgb(218, 241, 173);
+}
+.bone:hover {
+  transform: scale(1.1);
+}
+.bfour:hover {
+  transform: rotate(10deg);
+}
+.bthree {
+  background-color: rgb(121, 238, 226);
+}
+.bthree:hover {
+  transform: scale(1.1);
+}
+.bfour {
+  background-color: rgb(87, 124, 247);
+}
+.btwoo:hover {
+  transform: rotate(-10deg);
+}
+.btwoo {
+  background-color: rgb(87, 247, 111);
+}
+
+/* services */
+
+/* home body */
+section h2 {
+  font-family: "akaya";
+  color: rgb(5, 5, 132);
+  text-align: center;
+  font-size: 2em;
+  padding: 10px 0 20px 0;
+}
+section p {
+  color: rgb(43, 43, 43);
+  padding: 10px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.prog {
+  display: flex;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.prog p:first-child {
+  padding-bottom: 10px;
+  font-size: 2.5rem;
+  font-family: "Courget";
+  color: rgb(5, 5, 132);
+  height: 30%;
+  /* align-items: center; */
+}
+.prog h4 {
+  font-family: "noto";
+  /* padding: 0 20px; */
+  height: 70%;
+  color: rgb(45, 45, 45);
+  text-align: center;
+}
+.prog div {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: end; */
+  width: 250px;
+  height: 220px;
+  margin: 2%;
+}
+
+/* home body */
+
+
+/* sat */
+tr{
+  padding: 20px;
+}
+table tr{
+  padding: 20px;
+}
+
+
+
+/* sat */
