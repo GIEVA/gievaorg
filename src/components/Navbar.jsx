@@ -23,7 +23,7 @@ function Navbar() {
         <span></span>
         <span></span>
       </div>
-      <div>
+      <div className="navIcons">
         <ul className={menuOp ? "" : "open"}>
           <li>
             <NavLink to={`About`}>About</NavLink>

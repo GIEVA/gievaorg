@@ -1,23 +1,90 @@
 import React from "react";
+import Zoomeffect from "./Zoomeffect";
+import HomeSlider from "./HomeSlider";
+import "./Gallery.css";
 
 function Gallery() {
   return (
     <div>
-      <p>Gallery</p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus,
-        totam qui! Repudiandae nihil excepturi omnis ipsa quam, illum cumque
-        voluptatibus at eveniet rerum ipsum ratione illo animi dolore delectus
-        eum, quae similique non facere quas vitae vel quo minima! Nemo itaque
-        aperiam excepturi accusamus, officia debitis eveniet quo sapiente
-        facilis provident esse. Amet, dolores vitae quidem labore veritatis
-        fugit voluptas doloremque, laborum quod at eum ad repellendus
-        repudiandae itaque quo natus sapiente esse dolore explicabo eveniet
-        libero similique laudantium, iste tempore! Harum laboriosam praesentium
-        nihil doloremque molestias dolor minus error. Possimus harum laboriosam
-        vero quas sequi consequatur ipsa ratione aut!
-      </p>
-      <img src={require("../images/collab.jpg") } alt="people"/>
+      <div className="gallall">
+        <h1>Gallery</h1>
+        <HomeSlider />
+        <h1>Memories in 2024</h1>
+        <div className="galphotos">
+          <div className="galset1">
+            <div className="galsmall">
+              <img
+                alt="gallery"
+                src={require("../images/retreat.jpg")}
+                className="gals"
+              />
+              <img
+                alt="gallery"
+                src={require("../images/unity 1.jpg")}
+                className="gals"
+              />
+              <img
+                alt="gallery"
+                src={require("../images/bgdad.jpg")}
+                className="gals"
+              />
+              <img
+                alt="gallery"
+                src={require("../images/about.jpg")}
+                className="gals"
+              />
+              <img
+                alt="gallery"
+                src={require("../images/RACHEAL 1 .jpg")}
+                className="gals"
+              />
+              <img
+                alt="gallery"
+                src={require("../images/Artboard 1.jpg")}
+                className="gals"
+              />
+            </div>
+          </div>
+        </div>
+        <HomeSlider />
+        <h1>Memories in 2023</h1>
+        <div className="galphotos">
+          <div className="galset1">
+            <div className="galsmall">
+              <img
+                alt="gallery"
+                src={require("../images/Edutainment.jpg")}
+                className="gals"
+              />
+              <img
+                alt="gallery"
+                src={require("../images/akuya.jpg")}
+                className="gals"
+              />
+              <img
+                alt="gallery"
+                src={require("../images/volun.jpeg")}
+                className="gals"
+              />
+              <img
+                alt="gallery"
+                src={require("../images/opening2.jpg")}
+                className="gals"
+              />
+              <img
+                alt="gallery"
+                src={require("../images/UNITY 2.jpg")}
+                className="gals"
+              />
+              <img
+                alt="gallery"
+                src={require("../images/counselling.jpg")}
+                className="gals"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

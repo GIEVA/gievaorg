@@ -1,15 +1,15 @@
 import React from "react";
-// import { Fade } from "react-slideshow-image";
-// import "react-slideshow-image/dist/styles.css";
+import { FaBeer } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { VscArrowRight } from "react-icons/vsc";
 import video from "../videos/LagosVideo.mp4";
 
 function Services() {
   return (
     <div className="slide-container">
-      <div>
+      <div className="servvideo">
         <video
-          style={{ width: "100vw", paddingBottom: "30px", objectFit: "cover" }}
+          className="servid"
           src={video}
           type="video/mp4"
           autoPlay
@@ -43,47 +43,85 @@ function Services() {
                 Programs)
               </li>
             </ul> */}
-            <div className="serveList" style={{ backgroundColor: "#e5d" }}>
+            <div
+              className="serveList servbg2"
+              style={{ backgroundColor: "#e5d" }}
+            >
               <h3>SAT/ACT</h3>
               <p>Scholastic Aptitude Test (Undergraduate)</p>
-              <Link to={"/Sat"}>Learn More</Link>
+              <Link to={"/Sat"} className="links">
+                <VscArrowRight />
+              </Link>
             </div>
-            <div className="serveList" style={{ backgroundColor: "#afa" }}>
+            <div
+              className="serveList servbg2"
+              style={{ backgroundColor: "#afa" }}
+            >
               <h3>GRE</h3>
               <p>Graduate Record Examination</p>
-              <Link to={"/Gre"}>Learn more</Link>
+              <Link to={"/Gre"} className="links">
+                <VscArrowRight />
+              </Link>
             </div>
-            <div className="serveList" style={{ backgroundColor: "#add" }}>
+            <div
+              className="serveList servbg2"
+              style={{ backgroundColor: "#add" }}
+            >
               <h3>TOEFL</h3>
               <p>Test of English as a Foreign Language</p>
-              <Link to={"/Toefl"}>Learn more</Link>
+              <Link to={"/Toefl"} className="links">
+                <VscArrowRight />
+              </Link>
             </div>
-            <div className="serveList" style={{ backgroundColor: "#fa2" }}>
+            <div
+              className="serveList servbg2"
+              style={{ backgroundColor: "#fa2" }}
+            >
               <h3>Management Graduate Programs</h3>
               <p>Graduate Management Admission Test</p>
-              <Link to={"/Sat"}>Learn more</Link>
+              <Link to={"/Sat"} className="links">
+                <VscArrowRight />
+              </Link>
             </div>
           </div>
           <h2 style={{ paddingTop: "40px" }}>Join our</h2>
           <div className="serveListCont">
-            <div className="serveList" style={{ backgroundColor: "#faa" }}>
+            <div className="serveList servbg">
               <h3>S.T.E.P</h3>
               <p>Sustainable Transformative Education Program (STEP)</p>
-              <Link to={"/Step"}>Learn more</Link>
+              <Link to={"/Step"} className="links">
+                <VscArrowRight />
+              </Link>
             </div>
-            <div className="serveList" style={{ backgroundColor: "#dbe" }}>
+            <div className="serveList servbg">
               <h3>HEALS</h3>
               <p>Holistic Educational Advising and Learning Services</p>
-              <Link to={"/Heals"}>Learn more</Link>
+              <Link to={"/Heals"} className="links">
+                <VscArrowRight />
+              </Link>
             </div>
-            <div className="serveList" style={{ backgroundColor: "#ff4" }}>
+            <div className="third servbg">
               <h3>GIEVA Global Giving</h3>
               <p>Holistic Educational Advising and Learning Services</p>
-              <Link to={"/Global"}>Learn more</Link>
+              <Link to={"/Global"} className="links">
+                <VscArrowRight />
+              </Link>
             </div>
           </div>
-          <div className="second"></div>
-          <div className="third"></div>
+          <div className="servactivity">
+            <div className="second servbg">
+              <p>we are here to serve you better</p>
+            </div>
+            <div className="third servbg">
+              <p>we are here to serve you better</p>
+            </div>
+            <div className="third servbg">
+              <p>we are here to serve you better</p>
+            </div>
+            <div className="third servbg">
+              <p>we are here to serve you better</p>
+            </div>
+          </div>
         </div>
       </section>
     </div>

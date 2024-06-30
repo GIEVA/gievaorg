@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div>
       <div className="contactCont">
-        <div className="contact" style={{ backgroundColor: "#ffa" }}>
+        <div className="contact" style={{ backgroundColor: "#aaf" }}>
           <h1
             style={{
               fontFamily: "corinthia",
@@ -52,7 +52,7 @@ function Contact() {
                     style={{
                       width: "100%",
                       display: "flex",
-                      backgroundColor: "#aab",
+                      backgroundColor: "#ffa",
                       // textAlign: "center",
                       alignContent: "center",
                       justifyContent: "center",
@@ -107,7 +107,7 @@ function Contact() {
                     style={{
                       width: "100%",
                       display: "flex",
-                      backgroundColor: "#aab",
+                      backgroundColor: "#ffa",
                       // textAlign: "center",
                       alignContent: "center",
                       justifyContent: "center",
@@ -165,7 +165,7 @@ function Contact() {
                     style={{
                       width: "100%",
                       display: "flex",
-                      backgroundColor: "#aab",
+                      backgroundColor: "#ffa",
                       alignContent: "center",
                       justifyContent: "center",
                       lineHeight: "5vw",

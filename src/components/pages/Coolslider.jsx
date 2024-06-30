@@ -1,16 +1,15 @@
 import React, { useState, useEffect } from "react";
 
-function Blog() {
+function Coolslider() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % 4); // Assuming there are 5 nested divs
-    }, 3000); // Change item every 3 seconds
+    }, 4000); // Change item every 3 seconds
 
     return () => clearInterval(interval); // Cleanup interval on unmount
   }, []);
-  
 
   return (
     <div>
@@ -19,9 +18,9 @@ function Blog() {
           <div
             className={`bigitem ${currentIndex === 0 ? "visible" : "hidden"}`}
           >
-            <img src={require("../images/11.jpg")} alt="gieva" />
+            <img src={require("../images/opening2.jpg")} alt="gieva" />
             <div className="bigcontent">
-              <div className="maintitle">we inspire</div>
+              <div className="maintitle">we educate</div>
               <div className="subtitle">for the future</div>
               <div className="desc">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet
@@ -38,9 +37,9 @@ function Blog() {
           <div
             className={`bigitem ${currentIndex === 1 ? "visible" : "hidden"}`}
           >
-            <img src={require("../images/josoff.jpg")} alt="gieva" />
+            <img src={require("../images/bgmom.jpg")} alt="gieva" />
             <div className="bigcontent">
-              <div className="maintitle">we educate</div>
+              <div className="maintitle">we inspire</div>
               <div className="subtitle">follow us</div>
               <div className="desc">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet
@@ -59,7 +58,7 @@ function Blog() {
           >
             <img src={require("../images/collab.jpg")} alt="gieva" />
             <div className="bigcontent">
-              <div className="maintitle">we volunteer</div>
+              <div className="maintitle">we collaborate</div>
               <div className="subtitle">together</div>
               <div className="desc">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet
@@ -78,7 +77,7 @@ function Blog() {
           >
             <img src={require("../images/homeRach.jpg")} alt="gieva" />
             <div className="bigcontent">
-              <div className="maintitle">we inspire</div>
+              <div className="maintitle">we volunteer</div>
               <div className="subtitle">for the future</div>
               <div className="desc">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet
@@ -98,4 +97,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default Coolslider;

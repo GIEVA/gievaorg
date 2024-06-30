@@ -48,14 +48,77 @@ function About() {
             </div>
           </div>
           <div className="weare">
-            <div className="weone">he</div>
-            <div className="wetwo">hello ew</div>
+            <div className="weone"></div>
+            <div className="wetwo"></div>
             <div className="wethree"></div>
             <div className="wefour"></div>
           </div>
-          <div className="ourprio"></div>
-          <div className="thirdabout"></div>
-          <div className="forthabout"></div>
+          <div className="ourprio">
+            <p className="vision">
+              Our <span className="visionspan">vision</span> is building a
+              system that provides global platforms for young leaders through
+              educational services, entrepreneurial programs, and volunteerism
+            </p>
+          </div>
+          <div className="thirdabout">
+            <h1 style={{color:"#fff"}}>What we do</h1>
+            <div className="thirdcont">
+              <div className="thirdeach">
+                <div className="thirdeach2">
+                  <p className="t1">OUTREACH</p>
+                  <p className="t2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptas, sed!
+                  </p>
+                  <p className="t3">Lorem ipsum dolor sit amet.</p>
+                </div>
+                <img
+                  className="thirdeachimg"
+                  src={require("../images/volun.jpeg")}
+                  alt="volunteer"
+                />
+              </div>
+              <div className="thirdeach">
+                <div className="thirdeach2">
+                  <p className="t1">VOLUNTEERING</p>
+                  <p className="t2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptas, sed!
+                  </p>
+                  <p className="t3">Lorem ipsum dolor sit amet.</p>
+                </div>
+                <img
+                  className="thirdeachimg"
+                  src={require("../images/volun.jpeg")}
+                  alt="volunteer"
+                />
+              </div>
+              <div className="thirdeach">
+                <div className="thirdeach2">
+                  <p className="t1">MENTORING</p>
+                  <p className="t2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptas, sed!
+                  </p>
+                  <p className="t3">Lorem ipsum dolor sit amet.</p>
+                </div>
+                <img
+                  className="thirdeachimg"
+                  src={require("../images/volun.jpeg")}
+                  alt="volunteer"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="forthabout">
+            <p className="vision">
+              Our <span className="visionspan">mission</span> is to create an
+              atmosphere of tolerance, foster cooperation and mutual
+              understanding; build platforms for shared values, creativity, and
+              innovation; facilitate inclusive entrepreneurial initiatives, and
+              appreciation of environment.
+            </p>
+          </div>
 
           <div className="aboutSecond">
             <h3>Who we are?</h3>
@@ -82,11 +145,6 @@ function About() {
             </div>
           </div>
           <div className="aboutthird">
-            <p>
-              Our VISION is building a system that provides global platforms for
-              young leaders through educational services, entrepreneurial
-              programs, and volunteerism
-            </p>
             <hr
               style={{
                 height: "1px",
@@ -94,47 +152,15 @@ function About() {
                 backgroundColor: "rgb(3, 3, 103)",
               }}
             />
-            <p>
-              Our MISSION is to create an atmosphere of tolerance, foster
-              cooperation and mutual understanding; build platforms for shared
-              values, creativity, and innovation; facilitate inclusive
-              entrepreneurial initiatives, and appreciation of environment.
-            </p>
           </div>
           <div className="aboutforth">
-            <div className="tdtop"></div>
-            <div className="tddn">
-              <h2>What we do</h2>
-              <div className="doing">
-                <div className="do">
-                  <img
-                    src={require("../images/Edutainment.jpg")}
-                    alt="educate"
-                  />
-                  <p>OUTREACH</p>
-                  <p className="pSmall">
-                    We engage in outreach programs with schools
-                  </p>
-                </div>
-                <div className="do">
-                  <img src={require("../images/volun.jpeg")} alt="volunteer" />
-                  <p>VOLUNTEERING</p>
-                  <p className="pSmall">
-                    Young people who want to make a difference in our generation
-                    can volunteer here
-                  </p>
-                </div>
-                <div className="do">
-                  <img src={require("../images/mentor.jpg")} alt="counsel" />
-                  <p>MENTORING PROGRAM</p>
-                  <p className="pSmall">
-                    Leadership enhancement and Academic program
-                  </p>
-                </div>
-              </div>
+            <div className="tdtop">
+              <h1>We make your dreams become reality</h1>
+              <img src={ require("../images/Logo.png")} />
             </div>
+            
           </div>
-          <div>Our hierachy</div>
+          {/* <div>Our hierachy</div> */}
         </div>
       </div>
     </div>

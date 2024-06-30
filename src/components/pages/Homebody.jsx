@@ -1,11 +1,14 @@
 import React from "react";
+import CountUp from "react-countup";
+import VisibilitySensor from "react-visibility-sensor";
+import Counter from "./Counter";
 
 function Homebody() {
   return (
     <div>
       <div className="top">
         <section>
-          <h2>Our commitments</h2>
+          <h2 style={{ marginTop: "40px" }}>Our commitments</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste cum
             consequuntur, aperiam aliquam tempore ea dolor rem delectus,
@@ -14,37 +17,9 @@ function Homebody() {
             alias in. Culpa, inventore eos.
           </p>
         </section>
+        <Counter />
         <section>
-          <h2>Our progress</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
-            veritatis minus dolorum sapiente adipisci iure provident alias sint,
-            est.
-          </p>
-          <section className="prog">
-            <div>
-              <p>10,000+</p>
-              <h4>We have trained over students for SAT, TOFEL and GMAT</h4>
-            </div>
-            <div>
-              <p>600+</p>
-              <h4>
-                We have trained over 600 women on the use of generative
-                artificial intelligence
-              </h4>
-            </div>
-            <div>
-              <p>20 years</p>
-              <h4>We have existed for over 20 years now</h4>
-            </div>
-            <div>
-              <p>30+</p>
-              <h4>We currently partner with over 30 organizations</h4>
-            </div>
-          </section>
-        </section>
-        <section>
-          <h2>Our uniqueness</h2>
+          <h2 style={{ marginTop: "40px" }}>Our uniqueness and impact</h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Praesentium reprehenderit voluptate similique minima alias officiis
@@ -54,22 +29,15 @@ function Homebody() {
             itaque corporis, nesciunt tempora tenetur non eius natus ab!
           </p>
         </section>
-        <div
-          style={{
-            height: "100vh",
-            overflow: "hidden",
-            width: "100%",
-            display: "flex",
-            alignItems: "center",
-          }}
-        >
+        <div className="unityabjdiv">
           <img
+            className="unityabj"
             src={require("../images/UNITY 2.jpg")}
             alt="diversity"
             style={{ objectFit: "cover", minHeight: "100%", minWidth: "100%" }}
           />
+          <p className="roundworld">We take you round the world</p>
         </div>
-        <p>We take you round the world</p>
         <section className="idea">
           <div className="inclusion"></div>
           <div className="diversity"></div>
@@ -158,6 +126,7 @@ function Homebody() {
                 </span>
               </p>
               <img
+                className="dad"
                 style={{ width: "40%", marginRight: "30px" }}
                 alt="zhe"
                 src={require("../images/Dr. Obaka2.jpg")}
@@ -165,6 +134,7 @@ function Homebody() {
             </div>
             <div className="zhe line">
               <img
+                className="ceo"
                 style={{ width: "40%", marginRight: "30px" }}
                 alt="zhe"
                 src={require("../images/ZHE.jpg")}
