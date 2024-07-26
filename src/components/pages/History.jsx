@@ -3,7 +3,9 @@ import React from "react";
 function History() {
   return (
     <div className="histCont">
-      <h2 style={{fontFamily:"Akaya", textAlign: "center", padding:"30px"}}>History of GIEVA</h2>
+      <h2 style={{ fontFamily: "Akaya", textAlign: "center", padding: "30px" }}>
+        History of GIEVA
+      </h2>
       <p>
         The dream all began in 2001. The Global Integrated Education Volunteers
         Association was registered as Incorporated Trustees August 2006.
@@ -68,11 +70,15 @@ function History() {
         GIEVA Organization is an integrated non-for-profit organization anchored
         on sustainable development, partnership, and volunteerism.
       </p>
-      <div style={{fontSize:"14px", textAlign:"center"}}>
-      <img src={require("../images/Dr. Obaka.jpg")} alt="Dr. Obaka" style={{ width: "30vw", margin: "20px 0 0 0" }} />
+      <div style={{ fontSize: "14px", textAlign: "center" }}>
+        <img
+          src={require("../images/Dr. Obaka.jpg")}
+          alt="Dr. Obaka"
+          style={{ width: "30vw", margin: "20px 0 0 0" }}
+        />
 
-      <p>Dr. Daniel Newton Obaka</p>
-      <p>Chief Executive Officer of GIEVA</p>
+        <p>Dr. Daniel Newton Obaka</p>
+        <p>President/Founder</p>
       </div>
     </div>
   );

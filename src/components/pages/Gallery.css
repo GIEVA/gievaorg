@@ -9,29 +9,78 @@
   width: 100%;
   /* height: 50vw; */
   overflow: hidden;
-  background: linear-gradient(to left, rgba(217, 217, 232, 0.9), rgba(153, 137, 244, 0.4)),
-  url("../images/road.jpg");
+  background: linear-gradient(
+      to left,
+      rgba(217, 217, 232, 0.9),
+      rgba(153, 137, 244, 0.4)
+    ),
+    url("../images/road.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .galset1 {
-    display: flex;
-    width: 80%;
-    flex-wrap: wrap;
-    height: 90%;
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  height: 90%;
 }
 
 .galsmall {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
   margin: 20px;
   display: flex;
   flex-wrap: wrap;
 }
+.gal {
+  /* background-image: url("../images/road.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 280px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 20px;
+}
+.gal p {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  opacity: 0;
+  font-size: 20px;
+  text-shadow: 0px 0px 6px rgb(255, 255, 255);
+  transition: all 0.4s;
+  cursor: none;
+}
+.gal:hover {
+  .galtitle {
+    opacity: 1;
+  }
+}
+.gone {
+  background-image: url("../images/PLWD.JPG");
+}
+.gtwo {
+  background-image: url("../images/gg2.JPG");
+}
+.gthree {
+  background-image: url("../images/gg4.JPG");
+}
+.gfour {
+  background-image: url("../images/gg5.JPG");
+}
+.gfive {
+  background-image: url("../images/GG1.jpg");
+}
+.gsix {
+  background-image: url("../images/GG3.jpg");
+}
 .gals {
-    border-radius: 10px;
+  border-radius: 10px;
   width: 280px;
   margin: 3px;
   height: 230px;

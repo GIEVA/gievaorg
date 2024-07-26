@@ -1,5 +1,6 @@
 {
   "name": "app-one",
+  "homepage": "http://gieva.com.ng",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

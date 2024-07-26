@@ -3,10 +3,10 @@ import React, { useState, useEffect } from "react";
 import "react-slideshow-image/dist/styles.css";
 
 const slideImages = [
-  require("../images/educate.jpg"),
-  require("../images/mentor.jpg"),
-  require("../images/collab.jpg"),
-  require("../images/homeRach.jpg"),
+  require("../images/choices.jpg"),
+  require("../images/UNITY 2.jpg"),
+  require("../images/sat1.jpg"),
+  require("../images/opening.jpg"),
 ];
 
 function Zoomeffect() {

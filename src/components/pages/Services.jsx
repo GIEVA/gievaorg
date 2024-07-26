@@ -47,7 +47,7 @@ function Services() {
               className="serveList servbg2"
               style={{ backgroundColor: "#e5d" }}
             >
-              <h3>SAT/ACT</h3>
+              <h3>SAT</h3>
               <p>Scholastic Aptitude Test (Undergraduate)</p>
               <Link to={"/Sat"} className="links">
                 <VscArrowRight />
@@ -65,14 +65,65 @@ function Services() {
             </div>
             <div
               className="serveList servbg2"
-              style={{ backgroundColor: "#add" }}
+              style={{ backgroundColor: "#afa" }}
+            >
+              <h3>ACT</h3>
+              <p>America College Test</p>
+              <Link to={"/Sat"} className="links">
+                <VscArrowRight />
+              </Link>
+            </div>
+            <div
+              className="serveList servbg2"
+              style={{ backgroundColor: "#afa" }}
             >
               <h3>TOEFL</h3>
               <p>Test of English as a Foreign Language</p>
+              <Link to={"/Gre"} className="links">
+                <VscArrowRight />
+              </Link>
+            </div>
+            <div
+              className="serveList servbg2"
+              style={{ backgroundColor: "#afa" }}
+            >
+              <h3>IELTS</h3>
+              <p>International English Language Test System</p>
+              <Link to={"/Gre"} className="links">
+                <VscArrowRight />
+              </Link>
+            </div>
+            <div
+              className="serveList servbg2"
+              style={{ backgroundColor: "#afa" }}
+            >
+              <h3>Additional Score Report</h3>
+              {/* <p>Graduate Record Examination</p> */}
+              <Link to={"/Gre"} className="links">
+                <VscArrowRight />
+              </Link>
+            </div>
+            <div
+              className="serveList servbg2"
+              style={{ backgroundColor: "#add" }}
+            >
+              <h3>SEVIS Fee</h3>
+              {/* <p>Test of English as a Foreign Language</p> */}
               <Link to={"/Toefl"} className="links">
                 <VscArrowRight />
               </Link>
             </div>
+            <div
+              className="serveList servbg2"
+              style={{ backgroundColor: "#add" }}
+            >
+              <h3>VISA process</h3>
+              {/* <p>Test of English as a Foreign Language</p> */}
+              <Link to={"/Toefl"} className="links">
+                <VscArrowRight />
+              </Link>
+            </div>
+
             <div
               className="serveList servbg2"
               style={{ backgroundColor: "#fa2" }}
@@ -94,32 +145,28 @@ function Services() {
               </Link>
             </div>
             <div className="serveList servbg">
-              <h3>HEALS</h3>
-              <p>Holistic Educational Advising and Learning Services</p>
+              <h3>CHOICES</h3>
+              <p>
+                Creative Hands in Organizatinal Innovations for Constructive
+                Education and Sustainability
+              </p>
               <Link to={"/Heals"} className="links">
                 <VscArrowRight />
               </Link>
             </div>
             <div className="third servbg">
-              <h3>GIEVA Global Giving</h3>
+              <h3>GIEVA HEALS</h3>
               <p>Holistic Educational Advising and Learning Services</p>
               <Link to={"/Global"} className="links">
                 <VscArrowRight />
               </Link>
             </div>
-          </div>
-          <div className="servactivity">
-            <div className="second servbg">
-              <p>we are here to serve you better</p>
-            </div>
             <div className="third servbg">
-              <p>we are here to serve you better</p>
-            </div>
-            <div className="third servbg">
-              <p>we are here to serve you better</p>
-            </div>
-            <div className="third servbg">
-              <p>we are here to serve you better</p>
+              <h3>STEM</h3>
+              <p>Science Technology Engineering and Mathematics</p>
+              <Link to={"/Global"} className="links">
+                <VscArrowRight />
+              </Link>
             </div>
           </div>
         </div>

@@ -8,6 +8,15 @@ import { FaWhatsapp } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 
 function Footer() {
+  const handlefb= () => {
+    window.open("https://www.facebook.com/gieva.org/?locale2=en_GB&_rdr");
+  }
+  const handleis= () => {
+    window.open("https://www.instagram.com/gievaorg/");
+  }
+  const handletw= () => {
+    window.open("https://x.com/gievaorg?lang=en&mx=2");
+  }
   return (
     <div>
       <div className="footCont">
@@ -23,13 +32,13 @@ function Footer() {
 
               <div className="socialicons">
                 <ul id="icons">
-                  <li>
+                  <li onClick={handlefb}>
                     <FaFacebook />
                   </li>
-                  <li>
+                  <li onClick={handletw}>
                     <FaTwitter />
                   </li>
-                  <li>
+                  <li onClick={handleis}>
                     <FaInstagram />
                   </li>
                   <li>
@@ -40,7 +49,14 @@ function Footer() {
             </section>
             <section className="linkss">
               <ul className="first">
-                <li style={{ textDecoration: "underline", fontSize: "1.2em" }}>
+                <li
+                  style={{
+                    textDecoration: "underline",
+                    fontSize: "1.2em",
+                    color: "#f6d",
+                    fontWeight: "bolder",
+                  }}
+                >
                   Quick Links
                 </li>
                 <li>
@@ -59,7 +75,14 @@ function Footer() {
             </section>
             <section className="program">
               <ul className="second">
-                <li style={{ textDecoration: "underline", fontSize: "1.2em" }}>
+                <li
+                  style={{
+                    textDecoration: "underline",
+                    fontSize: "1.2em",
+                    color: "#f6d",
+                    fontWeight: "bolder",
+                  }}
+                >
                   Our Programs
                 </li>
                 <li>STEP</li>
@@ -70,7 +93,14 @@ function Footer() {
             </section>
             <section className="contactjos">
               <ul className="third">
-                <li style={{ textDecoration: "underline", fontSize: "1.2em" }}>
+                <li
+                  style={{
+                    textDecoration: "underline",
+                    color: "#f6d",
+                    fontSize: "1.2em",
+                    fontWeight: "bolder",
+                  }}
+                >
                   <FaLocationDot /> Contact us
                 </li>
                 <li>

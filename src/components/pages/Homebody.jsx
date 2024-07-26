@@ -9,30 +9,37 @@ function Homebody() {
       <div className="top">
         <section>
           <h2 style={{ marginTop: "40px" }}>Our commitments</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste cum
-            consequuntur, aperiam aliquam tempore ea dolor rem delectus,
-            nesciunt, eveniet dolorem odit. Quaerat, fugit illo ipsa dolorem
-            corrupti dignissimos architecto quod ad vitae consequuntur! Odit,
-            alias in. Culpa, inventore eos.
+          <p style={{ margin: "0px 50px", fontSize: "20px" }}>
+            GIEVA is committed to empowering the Nigerian youth specifically and
+            young African leaders in general for constructive engagement and
+            sustainable future through education, cultural exchange, advocacy,
+            and volunteerism. It is for building global platforms for young
+            leaders to develop innovative skills through leadership development
+            and entrepreneurial programs
           </p>
         </section>
         <Counter />
-        <section>
+        <section className="partsec">
           <h2 style={{ marginTop: "40px" }}>Our uniqueness and impact</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Praesentium reprehenderit voluptate similique minima alias officiis
-            quibusdam provident eos. Qui ut ratione, voluptas officiis molestiae
-            veritatis consequuntur dicta tempora ad, quam, culpa dignissimos
-            saepe perferendis aliquam corporis ab. Quod suscipit laudantium eos
-            itaque corporis, nesciunt tempora tenetur non eius natus ab!
+          <p
+            style={{
+              margin: "10px 50px",
+              textAlign: "center",
+              fontSize: "20px",
+            }}
+          >
+            GIEVA is currently in partnership with various international
+            education and non-governmental organizations. Her passion to impact
+            youth, marginalized communities, especially women and Persons Living
+            With Disability (PLWD) has placed her in a global limelight. Her
+            operational processes are time-bound, engaging and holistic, with a
+            plethora of local and international testimonials to attest.
           </p>
         </section>
         <div className="unityabjdiv">
           <img
             className="unityabj"
-            src={require("../images/UNITY 2.jpg")}
+            src={require("../images/Amarachi eze, sweet potato.JPG")}
             alt="diversity"
             style={{ objectFit: "cover", minHeight: "100%", minWidth: "100%" }}
           />
@@ -44,12 +51,7 @@ function Homebody() {
           <div className="equity"></div>
           <div className="access"></div>
         </section>
-        <section className="we">
-          <p className="educ">We educate</p>
-          <p className="ins">We inspire</p>
-          <p className="mot">We motivate</p>
-          <p className="tra">We transform</p>
-        </section>
+
         <section>
           <h2
             style={{
@@ -63,7 +65,9 @@ function Homebody() {
           </h2>
           <div>
             <div className="latestall">
-              <p style={{ textAlign: "left", color: "red" }}>Our latest</p>
+              <p style={{ textAlign: "left", color: "red" }}>
+                We touch the world
+              </p>
               <p style={{ fontFamily: "corinthia", fontSize: "35px" }}>
                 Catch up on our most recent events, news, and updates
               </p>
@@ -76,17 +80,22 @@ function Homebody() {
                 </div>
                 <div className="latestcon">
                   <div className="latestzoom two"></div>
-                  <p className="latestTitle">GIEVA Project Opening Ceremony</p>
+                  <p className="latestTitle">
+                    GIEVA distributing COVID 19 relief materials
+                  </p>
                 </div>
                 <div className="latestcon">
                   <div className="latestzoom three"></div>
                   <p className="latestTitle">
-                    GIEVA Gen. AI Project Conference
+                    GIEVA does not fail to include people living with
+                    disabilities
                   </p>
                 </div>
                 <div className="latestcon">
                   <div className="latestzoom four"></div>
-                  <p className="latestTitle">GIEVA Consortium Retreat</p>
+                  <p className="latestTitle">
+                    GIEVA preparing students of SAT examination
+                  </p>
                 </div>
                 <div className="latestcon">
                   <div className="latestzoom five"></div>
@@ -94,41 +103,31 @@ function Homebody() {
                 </div>
                 <div className="latestcon">
                   <div className="latestzoom six"></div>
-                  <p className="latestTitle">GIEVA Tech Conference Program</p>
+                  <p className="latestTitle">
+                    GIEVA-UNITED NATIONS ECOSOC side event
+                  </p>
                 </div>
               </div>
             </div>
 
             <div className="zhe">
-              <p
-                style={{
-                  width: "40%",
-                  fontSize: "2.4vw",
-                  textAlign: "center",
-                  padding: "0",
-                  margin: "0",
-                }}
-              >
-                <span style={{ fontSize: "6vw", fontFamily: "courget" }}>
-                  "
-                </span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-                odit nisi nostrum expedita esse et repellat. In odit,
-                exercitationem veritatis voluptate accusantium architecto.
-                Nesciunt distinctio saepe ab tempora sunt excepturi non cumque!
-                Numquam, accusantium quis ea molestiae tenetur totam quo!
-                <span style={{ fontSize: "3vw", fontFamily: "courget" }}>
-                  "
-                </span>
+              <p className="zhetext">
+                Our vision is to build a system that provides global platforms
+                for young African leaders and entrepreneurs to achieve potential
+                through educational services and programs, and to train them to
+                be free from system dependence and become self-dependent
+                individuals
                 <br />
                 <span style={{ fontFamily: "Noto", fontSize: "13px" }}>
                   Dr. Daniel Newton Obaka
                 </span>
+                <br />
+                <p>President</p>
               </p>
               <img
                 className="dad"
                 style={{ width: "40%", marginRight: "30px" }}
-                alt="zhe"
+                alt="president"
                 src={require("../images/Dr. Obaka2.jpg")}
               />
             </div>
@@ -136,33 +135,22 @@ function Homebody() {
               <img
                 className="ceo"
                 style={{ width: "40%", marginRight: "30px" }}
-                alt="zhe"
+                alt="CEO"
                 src={require("../images/ZHE.jpg")}
               />
-              <p
-                style={{
-                  width: "40%",
-                  fontSize: "2.4vw",
-                  textAlign: "center",
-                  padding: "0",
-                  margin: "0",
-                }}
-              >
-                <span style={{ fontSize: "6vw", fontFamily: "courget" }}>
-                  "
-                </span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-                odit nisi nostrum expedita esse et repellat. In odit,
-                exercitationem veritatis voluptate accusantium architecto.
-                Nesciunt distinctio saepe ab tempora sunt excepturi non cumque!
-                Numquam, accusantium quis ea molestiae tenetur totam quo!
-                <span style={{ fontSize: "3vw", fontFamily: "courget" }}>
-                  "
-                </span>{" "}
+              <p className="zhetext">
+                At GIEVA organization, we understand that transformation may
+                start slowly, embracing change may take time, but we are willing
+                to make the sacrifice to ensure that we transform lives through
+                education, innovation and collaboration to be a vehicle for
+                positive change in order to make lasting impact for the common
+                good.
                 <br />
                 <span style={{ fontFamily: "Noto", fontSize: "13px" }}>
                   Zhebati Ogodo
                 </span>
+                <br />
+                <p>CEO</p>
               </p>
             </div>
             {/* <p>Testimonials</p>

@@ -8,7 +8,18 @@ function Counter() {
       {/* <div className="content" /> */}
       <section className="countercont">
         <div className="prog">
-          <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+          <VisibilitySensor partialVisibility offset={{ bottom: 20 }}>
+            {({ isVisible }) => (
+              <div className="countnum">
+                {isVisible ? <CountUp end={18} duration={5} /> : 0}{" "}
+                <span>years</span>
+              </div>
+            )}
+          </VisibilitySensor>
+          <h4>Of being in existence</h4>
+        </div>
+        <div className="prog">
+          <VisibilitySensor partialVisibility offset={{ bottom: 20 }}>
             {({ isVisible }) => (
               <div className="countnum">
                 {isVisible ? <CountUp end={10000} duration={5} /> : 0}{" "}
@@ -16,43 +27,58 @@ function Counter() {
               </div>
             )}
           </VisibilitySensor>
-          <h4>We have trained over students for SAT, TOFEL and GMAT</h4>
+          <h4>
+            Applicants assisted with the SAT, TOEFL, IELTS, GRE, and GMAT tests
+          </h4>
         </div>
         <div className="prog">
-          <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+          <VisibilitySensor partialVisibility offset={{ bottom: 20 }}>
             {({ isVisible }) => (
               <div className="countnum">
-                {isVisible ? <CountUp end={600} duration={5} /> : 0}{" "}
+                {isVisible ? <CountUp end={2000} duration={5} /> : 0}{" "}
                 <span>+</span>
               </div>
             )}
           </VisibilitySensor>
           <h4>
-            We have trained over 600 women on the use of generative artificial
-            intelligence
+            Applicants assisted with international admission (HEALS) placements
           </h4>
         </div>
         <div className="prog">
-          <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
+          <VisibilitySensor partialVisibility offset={{ bottom: 20 }}>
             {({ isVisible }) => (
               <div className="countnum">
-                {isVisible ? <CountUp end={20} duration={5} /> : 0}{" "}
-                <span>years</span>
-              </div>
-            )}
-          </VisibilitySensor>
-          <h4>We have existed for over 20 years now</h4>
-        </div>
-        <div className="prog">
-          <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
-            {({ isVisible }) => (
-              <div className="countnum">
-                {isVisible ? <CountUp end={30} duration={5} /> : 0}{" "}
+                {isVisible ? <CountUp end={900} duration={5} /> : 0}{" "}
                 <span>+</span>
               </div>
             )}
           </VisibilitySensor>
-          <h4>We currently partner with over 30 organizations</h4>
+          <h4>
+            Women trained on the use of Generative Artificial Intelligence
+          </h4>
+        </div>
+        <div className="prog">
+          <VisibilitySensor partialVisibility offset={{ bottom: 20 }}>
+            {({ isVisible }) => (
+              <div className="countnum">
+                {isVisible ? <CountUp end={5000} duration={5} /> : 0}{" "}
+                <span>+</span>
+              </div>
+            )}
+          </VisibilitySensor>
+          <h4>Applicants assisted with SEVIS and VISA process</h4>
+        </div>
+
+        <div className="prog">
+          <VisibilitySensor partialVisibility offset={{ bottom: 20 }}>
+            {({ isVisible }) => (
+              <div className="countnum">
+                {isVisible ? <CountUp end={20} duration={5} /> : 0}{" "}
+                <span>+</span>
+              </div>
+            )}
+          </VisibilitySensor>
+          <h4>Partner organizations</h4>
         </div>
       </section>
     </div>

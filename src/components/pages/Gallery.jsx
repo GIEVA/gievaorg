@@ -9,7 +9,7 @@ function Gallery() {
       <div className="gallall">
         <h1>Gallery</h1>
         <HomeSlider />
-        <h1>Memories in 2024</h1>
+        <h1>Activities in 2024</h1>
         <div className="galphotos">
           <div className="galset1">
             <div className="galsmall">
@@ -47,40 +47,43 @@ function Gallery() {
           </div>
         </div>
         <HomeSlider />
-        <h1>Memories in 2023</h1>
+        <h1>
+          People living with disabilities are very important to our societies
+        </h1>
+        {/* <Zoomeffect/> */}
         <div className="galphotos">
           <div className="galset1">
             <div className="galsmall">
-              <img
-                alt="gallery"
-                src={require("../images/Edutainment.jpg")}
-                className="gals"
-              />
-              <img
-                alt="gallery"
-                src={require("../images/akuya.jpg")}
-                className="gals"
-              />
-              <img
-                alt="gallery"
-                src={require("../images/volun.jpeg")}
-                className="gals"
-              />
-              <img
-                alt="gallery"
-                src={require("../images/opening2.jpg")}
-                className="gals"
-              />
-              <img
-                alt="gallery"
-                src={require("../images/UNITY 2.jpg")}
-                className="gals"
-              />
-              <img
-                alt="gallery"
-                src={require("../images/counselling.jpg")}
-                className="gals"
-              />
+              <div className="gal gtwo">
+                <p className="galtitle">
+                  Empowering those with physical disability
+                </p>
+              </div>
+              <div className="gal gthree">
+                <p className="galtitle">
+                  Empowering those with physical disability
+                </p>
+              </div>
+              <div className="gal gfour">
+                <p className="galtitle">
+                  Empowering those with physical disability
+                </p>
+              </div>
+              <div className="gal gfive">
+                <p className="galtitle">
+                  Empowering those with physical disability
+                </p>
+              </div>
+              <div className="gal gone">
+                <p className="galtitle">
+                  Empowering those with physical disability
+                </p>
+              </div>
+              <div className="gal gsix">
+                <p className="galtitle">
+                  Empowering those with physical disability
+                </p>
+              </div>
             </div>
           </div>
         </div>
