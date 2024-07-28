@@ -8,6 +8,9 @@ import { FaWhatsapp } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 
 function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   const handlefb= () => {
     window.open("https://www.facebook.com/gieva.org/?locale2=en_GB&_rdr");
   }
@@ -60,15 +63,15 @@ function Footer() {
                   Quick Links
                 </li>
                 <li>
-                  <Link to={"/"}>Testimony</Link>
+                  <Link to={"/"}>Testimonials</Link>
                 </li>
-                <li>
+                <li onClick={scrollToTop}>
                   <Link to={"Gallery"}>Gallery</Link>
                 </li>
-                <li>
+                <li onClick={scrollToTop}>
                   <Link to={"Blog"}>Blog</Link>
                 </li>
-                <li>
+                <li onClick={scrollToTop}>
                   <Link to={"Services"}>Services</Link>
                 </li>
               </ul>

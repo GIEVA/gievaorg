@@ -2,14 +2,18 @@ import React from "react";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 import Counter from "./Counter";
+import { Link } from "react-router-dom";
 
 function Homebody() {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <div>
       <div className="top">
-        <section>
-          <h2 style={{ marginTop: "40px" }}>Our commitments</h2>
-          <p style={{ margin: "0px 50px", fontSize: "20px" }}>
+        <section className="homecomit">
+          <h2>Our commitments</h2>
+          <p>
             GIEVA is committed to empowering the Nigerian youth specifically and
             young African leaders in general for constructive engagement and
             sustainable future through education, cultural exchange, advocacy,
@@ -19,15 +23,9 @@ function Homebody() {
           </p>
         </section>
         <Counter />
-        <section className="partsec">
-          <h2 style={{ marginTop: "40px" }}>Our uniqueness and impact</h2>
-          <p
-            style={{
-              margin: "10px 50px",
-              textAlign: "center",
-              fontSize: "20px",
-            }}
-          >
+        <section className="partsec homeuniq">
+          <h2>Our uniqueness and impact</h2>
+          <p>
             GIEVA is currently in partnership with various international
             education and non-governmental organizations. Her passion to impact
             youth, marginalized communities, especially women and Persons Living
@@ -37,12 +35,6 @@ function Homebody() {
           </p>
         </section>
         <div className="unityabjdiv">
-          <img
-            className="unityabj"
-            src={require("../images/Amarachi eze, sweet potato.JPG")}
-            alt="diversity"
-            style={{ objectFit: "cover", minHeight: "100%", minWidth: "100%" }}
-          />
           <p className="roundworld">We take you round the world</p>
         </div>
         <section className="idea">
@@ -56,7 +48,7 @@ function Homebody() {
           <h2
             style={{
               fontFamily: "corinthia",
-              fontSize: "5vw",
+              fontSize: "40px",
               fontWeight: "bolder",
               marginTop: "40px",
             }}
@@ -65,9 +57,9 @@ function Homebody() {
           </h2>
           <div>
             <div className="latestall">
-              <p style={{ textAlign: "left", color: "red" }}>
+              {/* <p style={{ textAlign: "left", color: "red" }}>
                 We touch the world
-              </p>
+              </p> */}
               <p style={{ fontFamily: "corinthia", fontSize: "35px" }}>
                 Catch up on our most recent events, news, and updates
               </p>
@@ -112,11 +104,11 @@ function Homebody() {
 
             <div className="zhe">
               <p className="zhetext">
-                Our vision is to build a system that provides global platforms
-                for young African leaders and entrepreneurs to achieve potential
-                through educational services and programs, and to train them to
-                be free from system dependence and become self-dependent
-                individuals
+                Our goal to continue to evolve and build a system that provides
+                global platform for young African leaders and entrepreneurs to
+                actively engage and achieve full potential through
+                transformative education services and programs and to train them
+                to imbibe self-dependent mindset for the common good.
                 <br />
                 <span style={{ fontFamily: "Noto", fontSize: "13px" }}>
                   Dr. Daniel Newton Obaka

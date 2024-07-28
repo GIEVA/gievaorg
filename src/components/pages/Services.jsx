@@ -5,6 +5,9 @@ import { VscArrowRight } from "react-icons/vsc";
 import video from "../videos/LagosVideo.mp4";
 
 function Services() {
+   const scrollToTop = () => {
+     window.scrollTo(0, 0);
+   };
   return (
     <div className="slide-container">
       <div className="servvideo">
@@ -44,6 +47,7 @@ function Services() {
               </li>
             </ul> */}
             <div
+              onClick={scrollToTop}
               className="serveList servbg2"
               style={{ backgroundColor: "#e5d" }}
             >
@@ -56,14 +60,16 @@ function Services() {
             <div
               className="serveList servbg2"
               style={{ backgroundColor: "#afa" }}
+              onClick={scrollToTop}
             >
               <h3>GRE</h3>
               <p>Graduate Record Examination</p>
-              <Link to={"/Gre"} className="links">
+              <Link to={"/Sat"} className="links">
                 <VscArrowRight />
               </Link>
             </div>
             <div
+              onClick={scrollToTop}
               className="serveList servbg2"
               style={{ backgroundColor: "#afa" }}
             >
@@ -74,57 +80,63 @@ function Services() {
               </Link>
             </div>
             <div
+              onClick={scrollToTop}
               className="serveList servbg2"
               style={{ backgroundColor: "#afa" }}
             >
               <h3>TOEFL</h3>
               <p>Test of English as a Foreign Language</p>
-              <Link to={"/Gre"} className="links">
+              <Link to={"/Sat"} className="links">
                 <VscArrowRight />
               </Link>
             </div>
             <div
+              onClick={scrollToTop}
               className="serveList servbg2"
               style={{ backgroundColor: "#afa" }}
             >
               <h3>IELTS</h3>
               <p>International English Language Test System</p>
-              <Link to={"/Gre"} className="links">
+              <Link to={"/Sat"} className="links">
                 <VscArrowRight />
               </Link>
             </div>
             <div
+              onClick={scrollToTop}
               className="serveList servbg2"
               style={{ backgroundColor: "#afa" }}
             >
               <h3>Additional Score Report</h3>
               {/* <p>Graduate Record Examination</p> */}
-              <Link to={"/Gre"} className="links">
+              <Link to={"/Sat"} className="links">
                 <VscArrowRight />
               </Link>
             </div>
             <div
+              onClick={scrollToTop}
               className="serveList servbg2"
               style={{ backgroundColor: "#add" }}
             >
               <h3>SEVIS Fee</h3>
               {/* <p>Test of English as a Foreign Language</p> */}
-              <Link to={"/Toefl"} className="links">
+              {/* <Link to={"/Toefl"} className="links">
                 <VscArrowRight />
-              </Link>
+              </Link> */}
             </div>
             <div
+              onClick={scrollToTop}
               className="serveList servbg2"
               style={{ backgroundColor: "#add" }}
             >
               <h3>VISA process</h3>
               {/* <p>Test of English as a Foreign Language</p> */}
-              <Link to={"/Toefl"} className="links">
+              {/* <Link to={"/Toefl"} className="links">
                 <VscArrowRight />
-              </Link>
+              </Link> */}
             </div>
 
             <div
+              onClick={scrollToTop}
               className="serveList servbg2"
               style={{ backgroundColor: "#fa2" }}
             >
@@ -137,36 +149,36 @@ function Services() {
           </div>
           <h2 style={{ paddingTop: "40px" }}>Join our</h2>
           <div className="serveListCont">
-            <div className="serveList servbg">
+            <div className="serveList servbg" onClick={scrollToTop}>
               <h3>S.T.E.P</h3>
               <p>Sustainable Transformative Education Program (STEP)</p>
-              <Link to={"/Step"} className="links">
+              {/* <Link to={"/Step"} className="links">
                 <VscArrowRight />
-              </Link>
+              </Link> */}
             </div>
-            <div className="serveList servbg">
+            <div className="serveList servbg" onClick={scrollToTop}>
               <h3>CHOICES</h3>
               <p>
                 Creative Hands in Organizatinal Innovations for Constructive
                 Education and Sustainability
               </p>
-              <Link to={"/Heals"} className="links">
+              {/* <Link to={"/Heals"} className="links">
                 <VscArrowRight />
-              </Link>
+              </Link> */}
             </div>
-            <div className="third servbg">
+            <div className="third servbg" onClick={scrollToTop}>
               <h3>GIEVA HEALS</h3>
               <p>Holistic Educational Advising and Learning Services</p>
-              <Link to={"/Global"} className="links">
+              {/* <Link to={"/Global"} className="links">
                 <VscArrowRight />
-              </Link>
+              </Link> */}
             </div>
-            <div className="third servbg">
+            <div className="third servbg" onClick={scrollToTop}>
               <h3>STEM</h3>
               <p>Science Technology Engineering and Mathematics</p>
-              <Link to={"/Global"} className="links">
+              {/* <Link to={"/Global"} className="links">
                 <VscArrowRight />
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

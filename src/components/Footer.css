@@ -23,7 +23,7 @@
 }
 .footIn section {
   /* border: 1px solid red; */
-  display: flex;
+  /* display: flex; */
   align-items: center;
 }
 .logosection,
@@ -117,7 +117,7 @@
 /* home */
 /* home slider  */
 .bigslider {
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
   overflow: hidden;
   position: relative;
@@ -650,16 +650,16 @@ section p {
 .countercont {
   display: flex;
   flex-wrap: wrap;
+  overflow: hidden;
   /* flex-direction: column; */
-  width: 100vw;
+  /* width: 100vw; */
   align-items: center;
   justify-content: center;
 }
 .prog {
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  /* border: 1px solid red; */
   box-shadow: 0 0 5px #ddd;
   width: 40%;
   padding-bottom: 10px;
@@ -681,7 +681,7 @@ section p {
   text-align: center;
   font-family: "noto";
   padding: 0 5px;
-  height: 50%;
+  /* height: 50%; */
   color: rgb(45, 45, 45);
 }
 .prog div {
@@ -691,6 +691,22 @@ section p {
   width: 250px;
   height: 220px;
   margin: 2%;
+}
+.homecomit h2 {
+  font-size: 40px;
+  margin: 50px 0px 0 0;
+}
+.homecomit p {
+  font-size: 20px;
+  margin: 0px 80px;
+}
+.homeuniq h2 {
+  font-size: 40px;
+  margin: 50px 0px 0 0;
+}
+.homeuniq p {
+  font-size: 20px;
+  margin: 0px 80px;
 }
 .roundworld {
   position: absolute;
@@ -705,12 +721,15 @@ section p {
 }
 .unityabjdiv {
   position: relative;
-  height: 100vh;
+  height: 80vh;
   overflow: hidden;
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: 60px;
+  background-image: url("../components/images/Amarachi\ eze\,\ sweet\ potato.JPG");
+  background-position: center;
+  background-size: cover;
 }
 
 .zhe:hover {
@@ -826,24 +845,79 @@ table tr {
   transform: translateZ(20px);
 }
 
-
 /* blog */
 
-
-
-
 @media screen and (max-width: 701px) {
-  
   .bigslider .list .bigitem .bigcontent .maintitle {
     font-size: 50px;
   }
-  .line{
+  .line {
     border-bottom: none;
+  }
+
+  .homecomit p{
+    font-size: 16px;
+    margin: 0 20px;
+    text-align: justify;
+  }
+  
+  .homeuniq p{
+    /* text-align: justify; */
+    margin: 0 20px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 480px) {
-  
-   .bigslider .list .bigitem .bigcontent .maintitle{
+  .bigslider .list .bigitem .bigcontent .maintitle {
     font-size: 30px;
   }
+  .zhe{
+    margin-top: 50px;
+  }
+  .countnum {
+    span {
+      font-size: 30px;
+    }
+  }
+  h4 {
+    font-size: 14px;
+  }
+  .prog {
+    width: 200px;
+  }
+  .homecomit h2{
+    font-size: 30px;
+  }
+  .homecomit p{
+    font-size: 14px;
+    margin: 0 20px;
+    text-align: justify;
+  }
+  .homeuniq h2{
+    font-size: 30px;
+  }
+  .galhead{
+    font-size: 30px;
+  }
+  .homeuniq p{
+    /* text-align: justify; */
+    margin: 0 20px;
+    font-size: 14px;
+  }
+  .unityabjdiv{
+    height: 50vh;
+  }
+  .roundworld{
+    font-size: 14px;
+  }
+  .bot {
+    display: none;
+  }
+  .program {
+    display: none;
+  }
+  .logosection,
+.contactjos {
+  width: 100vw;
+}
 }

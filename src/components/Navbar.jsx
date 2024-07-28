@@ -5,9 +5,12 @@ import "./Nav.css";
 
 function Navbar() {
   const [menuOp, setmenuOp] = useState(true);
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <nav className={menuOp ? "navCont" : "longer"}>
-      <div className="logo">
+      <div className="logo" onClick={scrollToTop}>
         <Link to="/">
           <img src={require("./images/GIEVALogo.png")} alt="logo" />
         </Link>
@@ -25,16 +28,16 @@ function Navbar() {
       </div>
       <div className="navIcons">
         <ul className={menuOp ? "" : "open"}>
-          <li>
+          <li onClick={scrollToTop}>
             <NavLink to={`About`}>About</NavLink>
           </li>
-          <li>
+          <li onClick={scrollToTop}>
             <NavLink to={`Services`}>Services</NavLink>
           </li>
-          <li>
+          <li onClick={scrollToTop}>
             <NavLink to={`/Blog`}>Blog</NavLink>
           </li>
-          <li>
+          <li onClick={scrollToTop}>
             <NavLink to={`Contact`}>Contact us</NavLink>
           </li>
         </ul>

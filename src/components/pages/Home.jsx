@@ -4,9 +4,13 @@ import Homebody from "./Homebody";
 import Gallery from "./Gallery";
 import Coolslider from "./Coolslider";
 import Counter from "./Counter";
+import { Link } from "react-router-dom";
 
 const images = [1, 2, 3, 4];
 const Home = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <div className="homeCont">
       <div className="homeCont">
@@ -20,15 +24,18 @@ const Home = () => {
         {/* <Counter /> */}
         <div>
           <h1
+            className="galhead"
+            onClick={scrollToTop}
             style={{
               fontFamily: "corinthia",
-              fontSize: "5vw",
+              fontSize: "50px",
               fontWeight: "bolder",
               marginTop: "40px",
               textAlign: "center",
+              cursor: "pointer",
             }}
           >
-            Gallery
+            <Link to={"Gallery"}>Gallery</Link>
           </h1>
           <HomeSlider />
         </div>

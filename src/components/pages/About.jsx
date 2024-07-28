@@ -31,6 +31,9 @@ function About() {
     }
     return color;
   }
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <div>
       <div className="aboutCont">
@@ -49,7 +52,7 @@ function About() {
               <h3
                 style={{
                   fontFamily: "corinthia",
-                  fontSize: "6vw",
+                  fontSize: "60px",
                   color: bgColor,
                   textAlign: "center",
                 }}
@@ -57,33 +60,21 @@ function About() {
                 A brief history?
               </h3>
               <p className="histP">
-                The concept for Global Integrated Education Volunteers
-                Association emerged in 2005 and the organization was birthed in
-                January 2007 after being registered with the corporate affairs
-                commission in August of 2006. The Birth of the organization was
-                as a result of the critical need to empower the present and
-                future generation of youth in Nigeria for sustainable future &
-                development.
+                The dream all began in 2001. The Global Integrated Education
+                Volunteers Association was registered as Incorporated Trustees
+                August 2006.
               </p>
               <p className="histP">
-                The Principal Founder of GIEVA Dr Daniel Obaka was motivated
-                about this, because of his experience as a child from a very
-                poor background. His poor mother in spite of the limited
-                finances she had did not deter to ensure a sound education was
-                provided for her son.
+                Daniel and Ruth Obaka founded and incorporated the Global
+                Integrated Education Volunteers Association as a not-for-profit
+                organization in Nigeria. It is with a vision for building a
+                system and framework that provides global platforms for young
+                African leaders and entrepreneurs to achieve potential through
+                educational services/programs, and train to be free from system
+                dependence and to become self-dependent.
               </p>
-              {/* <p className="histP">
-                Encouraged by his experience, Dr Obaka saw the need to empower
-                other Nigerian youths and also provide leadership training for
-                them. In the quest of achieving this dream, he mobilized 16
-                (Sixteen) pioneer professionals and experts in education,
-                health, environment, youth and social works, information &
-                communication technology, legal, and management teamed up and
-                registered the Association as a non-governmental organization
-                (NGO), Nigeria.
-              </p> */}
               <hr />
-              <div className="hislink">
+              <div className="hislink" onClick={scrollToTop}>
                 <Link to={"/History"} style={{ color: "orange" }}>
                   Read more
                 </Link>
@@ -95,14 +86,10 @@ function About() {
             <p className="vision">
               Our <span className="visionspan">vision</span> is building a
               system that provides global platforms for young leaders through
-              educational services, entrepreneurial programs, and volunteerism
+              educational services, entrepreneurial programs, and volunteerism.
             </p>
           </div>
           <div className="weare">
-            {/* <div className="weone"></div>
-            <div className="wetwo"></div>
-            <div className="wethree"></div>
-            <div className="wefour"></div> */}
             <section className="we">
               <p className="educ">We educate</p>
               <p className="ins">We inspire</p>
@@ -130,19 +117,17 @@ function About() {
               </div>
               <div className="thirdeach">
                 <div className="thirdeach2">
-                  <p className="t1">Volunteerism</p>
+                  <p className="t1">Educational Services</p>
                   <p className="t2">
-                    We believe in volunteering and Advocacy programs and
-                    services, we have over time seen that volunteering is not a
-                    popular culture in Nigeria, GIEVA is set to re-position this
-                    trend by providing different opportunities and platforms for
-                    young people to Volunteer their time, resources, and also
-                    professional expertise for the course of humanity and
-                    development of Nigeria.
+                    With partnership with ETS since 2007 we have aided students
+                    who seek to study in the United States a platform for easy
+                    access to registration materials and preparatory books that
+                    will allow them to achieve their goals. We also register
+                    students for GRE, TOEFL.
                   </p>
                   {/* <p className="t3">Lorem ipsum dolor sit amet.</p> */}
                 </div>
-                <div className="imgez2"></div>
+                <div className="imgez6"></div>
               </div>
               <div className="thirdeach">
                 <div className="thirdeach2">
@@ -185,19 +170,22 @@ function About() {
                 </div>
                 <div className="imgez5"></div>
               </div>
+
               <div className="thirdeach">
                 <div className="thirdeach2">
-                  <p className="t1">Educational Services</p>
+                  <p className="t1">Volunteerism</p>
                   <p className="t2">
-                    With partnership with ETS since 2007 we have aided students
-                    who seek to study in the United States a platform for easy
-                    access to registration materials and preparatory books that
-                    will allow them to achieve their goals. We also register
-                    students for GRE, TOEFL.
+                    We believe in volunteering and Advocacy programs and
+                    services, we have over time seen that volunteering is not a
+                    popular culture in Nigeria, GIEVA is set to re-position this
+                    trend by providing different opportunities and platforms for
+                    young people to Volunteer their time, resources, and also
+                    professional expertise for the course of humanity and
+                    development of Nigeria.
                   </p>
                   {/* <p className="t3">Lorem ipsum dolor sit amet.</p> */}
                 </div>
-                <div className="imgez6"></div>
+                <div className="imgez2"></div>
               </div>
             </div>
           </div>
@@ -207,7 +195,7 @@ function About() {
               atmosphere of tolerance, foster cooperation and mutual
               understanding; build platforms for shared values, creativity, and
               innovation; facilitate inclusive entrepreneurial initiatives, and
-              appreciation of environment.
+              appreciation of the environment.
             </p>
           </div>
 

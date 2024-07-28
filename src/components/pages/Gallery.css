@@ -1,6 +1,10 @@
 .gallall {
   overflow: hidden;
 }
+.galhead{
+  font-size: 50px;
+}
+
 .galphotos {
   /* height: 50vw; */
   display: flex;

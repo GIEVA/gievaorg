@@ -1,5 +1,5 @@
 import React from "react";
-import Zoomeffect from "./Zoomeffect";
+// import Zoomeffect from "./Zoomeffect";
 import HomeSlider from "./HomeSlider";
 import "./Gallery.css";
 
@@ -7,7 +7,7 @@ function Gallery() {
   return (
     <div>
       <div className="gallall">
-        <h1>Gallery</h1>
+        <h1 className="galhead">Gallery</h1>
         <HomeSlider />
         <h1>Activities in 2024</h1>
         <div className="galphotos">

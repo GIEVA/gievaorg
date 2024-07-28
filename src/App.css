@@ -163,12 +163,12 @@ body {
   align-items: center;
   justify-content: space-evenly;
   /* height: 50vh; */
-  margin: 3vw 4vw;
+  /* margin: 10px; */
   /* width: 90vw; */
 }
 .zhetext {
-  width: 40%;
-  font-size: 1.3em;
+  width: 50%;
+  font-size: 1.5em;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -177,11 +177,11 @@ body {
   border-bottom: 4px solid rgb(0, 128, 255);
 }
 .dad:hover {
-  transform: translateX(2vw);
+  transform: translateX(50px);
   transition: all 0.5s;
 }
 .ceo:hover {
-  transform: translateX(2vw);
+  transform: translateX(50px);
   transition: all 0.5s;
 }
 
@@ -222,12 +222,12 @@ body {
   );
 }
 .aboutHeader h2 {
-  font-size: 4vw;
+  font-size: 6vh;
   color: rgb(255, 255, 255);
   font-family: "Bree";
 }
 .aboutHeader p {
-  font-size: 1.5vw;
+  font-size: 20px;
   padding-bottom: 0.8rem;
   font-family: "Courget", sans-serif;
 }
@@ -705,19 +705,19 @@ body {
 .pSmall {
   font-size: 0.7em;
 }
-.parteach{
+.parteach {
   display: flex;
   flex-wrap: wrap;
   /* flex-direction: column; */
   justify-content: center;
   /* border: 1px solid red; */
 }
-.parteach img{
-width: 120px;
-margin:10px;
+.parteach img {
+  width: 120px;
+  margin: 10px;
 }
-.parteach img:hover{
-  border-bottom: 2px solid rgb(0, 174, 255) ;
+.parteach img:hover {
+  border-bottom: 2px solid rgb(0, 174, 255);
   cursor: pointer;
 }
 
@@ -806,14 +806,14 @@ margin:10px;
   font-size: 50px;
   font-family: "akaya";
 }
-.blogeach{
+.blogeach {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
   margin: 50px 20px;
 }
-.imgba{
+.imgba {
   background-image: url("./components/images/11.jpg");
   height: 60vh;
   width: 90%;
@@ -821,7 +821,7 @@ margin:10px;
   background-size: cover;
   border: 2px solid rgb(255, 217, 164);
 }
-.imgbb{
+.imgbb {
   /* background-color: ; */
   border: 2px solid rgb(255, 217, 164);
   height: 30vh;
@@ -831,57 +831,192 @@ margin:10px;
   align-items: center;
   justify-content: center;
 }
-.blogcont{
+.blogcont {
   font-size: 30px;
   padding-bottom: 30px;
   color: #545354;
   /* line-height: 70px; */
 }
-.blogha{
-  font-size: 22px ;
+.blogha {
+  font-size: 22px;
 }
-.bloghb{
-  font-size: 15px ;
+.bloghb {
+  font-size: 15px;
 }
 
 /* blog */
 
 /* sat */
-.satCon{
+.satCon {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
-.sath{
-   background-image: url("./components/images/sat1.jpg");
+.satlabel {
+  display: flex;
+  width: 100vw;
+  /* border: 1px solid red; */
+  box-shadow: 0 0 6px;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+.satlabel a {
+  list-style-type: none;
+  color: #03718d;
+  padding: 5px;
+  font-size: 1.2em;
+}
+.sath {
+  background-image: url("./components/images/sat1.jpg");
+  height: 40vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+.satdiv {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.satdates {
+  flex-direction: column;
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.satdates table {
+  border: 2px solid rgb(34, 127, 139);
+  width: 300px;
+  /* height: 250px; */
+}
+.satCon {
+  color: #88a;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  margin: 5px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid rgb(34, 127, 139);
+  text-align: justify;
+}
+
+.antidate {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+.anticiatedDate li {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  box-shadow: 0px 0px 9px #aaa;
+  width: 105px;
+  /* padding: 5px; */
+  margin: 10px;
+  text-align: center;
+  height: 50px;
+  border-radius: 50px;
+}
+.acth {
+  background-image: url("./components/images/sat2.jpg");
   height: 40vh;
   width: 100%;
   background-position: center;
   background-size: cover;
   /* border: 2px solid rgb(255, 217, 164); */
 }
-.acth{
-   background-image: url("./components/images/sat2.jpg");
-  height: 40vh;
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-  /* border: 2px solid rgb(255, 217, 164); */
+.act {
+  margin: 20px 0;
+  border: 1px solid green;
+  width: 100vw;
+  overflow: hidden;
 }
-.satAll{
+.actimg {
+  height: 130px;
+  background-size: contain;
+  width: 100%;
+  background: #fff url("./components/images/acts.png") no-repeat center;
+}
+.actbody {
+  margin: 30px 20px;
+  box-shadow: 0 0 9px;
+  padding: 15px;
+}
+.actlist {
+  list-style-type: none;
+  margin: 5px;
+}
+.satAll {
   width: 90vw;
   /* border: 1px solid red; */
   box-shadow: 0px 0px 9px rgb(146, 146, 207);
   margin: 0 0 30px 0;
 }
-
-
+.toefl {
+  width: 100vw;
+  overflow: hidden;
+}
+.toeflimg {
+  height: 130px;
+  width: 100%;
+  background: #fff url("./components/images/TOEFL_Logo.svg.png") no-repeat
+    center;
+  background-size: contain;
+}
+.toeflbody,
+.ieltbody,
+.grebody,
+.gmatbody {
+  margin: 30px 20px;
+  box-shadow: 0 0 9px;
+  padding: 15px 20px 30px 20px;
+}
+.ieltimage {
+  height: 130px;
+  width: 100%;
+  background: #fff url("./components/images/IELTS-EXAM-FEES-IN-INDIA.jpg.webp")
+    no-repeat center;
+  background-size: contain;
+  padding-bottom: 40px;
+  margin: 20px;
+}
+.greimage {
+  height: 130px;
+  width: 100%;
+  background: #fff url("./components/images/gre.jpeg") no-repeat center;
+  background-size: contain;
+}
+.gmatimage {
+  height: 130px;
+  width: 100%;
+  background: #fff url("./components/images/gmat.png") no-repeat center;
+  background-size: contain;
+}
 
 /* sat */
 
 /* contact */
-
+@media screen and (max-width: 800px) {
+  .zhetext {
+    font-size: 20px;
+  }
+}
 @media screen and (max-width: 701px) {
   .vision {
     font-size: 1.8em;
@@ -890,16 +1025,27 @@ margin:10px;
     display: none;
   }
   .zhetext {
-    font-size: 12px;
+    font-size: 16px;
   }
   .latestcon {
     min-width: 280px;
   }
+  .aboutthird p {
+    font-size: 30px;
+  }
+   .ourprio:hover {
+    background-position: calc(100% + 100px) calc(100% - 0px);
+  }
+  .forthabout:hover {
+    background-position: calc(100% + 280px) calc(100% - 0px);
+  }
 }
-.aboutthird p {
-  font-size: 30px;
-}
+
+
 @media screen and (max-width: 480px) {
+  p {
+    font-size: 13px;
+  }
   .dad {
     display: none;
   }
@@ -909,6 +1055,9 @@ margin:10px;
   .zhetext {
     font-size: 14px;
     width: 100%;
+  }
+  .zhe {
+    margin: 30px;
   }
   .aboutthird p {
     font-size: 20px;
@@ -923,5 +1072,44 @@ margin:10px;
   }
   .aboutAll {
     overflow-x: hidden;
+  }
+  .satdiv {
+    font-family: "Times New Roman", Times, serif;
+  }
+  table {
+    font-size: 12px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .anticiatedDate li {
+    font-size: 12px;
+    width: 80px;
+  }
+  .satull {
+    font-size: 12px;
+  }
+  .actlist {
+    font-size: 12px;
+  }
+  .actbody {
+    font-family: "Times New Roman", Times, serif;
+  }
+  .toeflbody {
+    font-family: "Times New Roman", Times, serif;
+  }
+  .aboutFirst {
+    background-image: url("./components/images/unityAbj.jpg");
+  }
+  .aboutHeader h2 {
+    font-size: 4vh;
+  }
+  .aboutHeader {
+    width: 100%;
+  }
+  .ourprio:hover {
+    background-position: calc(100% + 100px) calc(100% - 0px);
+  }
+  .forthabout:hover {
+    background-position: calc(100% + 450px) calc(100% - 0px);
   }
 }
