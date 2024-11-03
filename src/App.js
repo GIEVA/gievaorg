@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 // import Counter from "./components/Counter";
 import Navbar from "./components/Navbar";
@@ -20,6 +20,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      {/* <Router> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
@@ -29,11 +30,14 @@ function App() {
         <Route path="/Gallery" element={<Gallery />} />
         <Route path="/History" element={<History />} />
         <Route path="/Step" element={<Step />} />
-        <Route path="/Gre" element={<Gre />} />
         <Route path="/Sat" element={<Sat />} />
         <Route path="/Heals" element={<Heals />} />
         <Route path="/Global" element={<Global />} />
+        <Route path="/Gre" element={<Gre />} />
+        {/* <Route path="/Services" element={<Services />}>
+          </Route> */}
       </Routes>
+      {/* </Router> */}
       <Footer />
     </div>
   );

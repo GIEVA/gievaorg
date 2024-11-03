@@ -3,6 +3,9 @@ import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 import Counter from "./Counter";
 import { Link } from "react-router-dom";
+import Gre from "./Gre";
+// import Reporta from "./Reporta";
+
 
 function Homebody() {
   const scrollToTop = () => {
@@ -66,6 +69,10 @@ function Homebody() {
               <div className="latest">
                 <div className="latestcon">
                   <div className="latestzoom one"></div>
+                  <Link to={"/Gre"} className="clickAppear">
+                    Click for more
+                  </Link>
+
                   <p className="latestTitle">
                     GIEVA Generative Artificial Intelligence Awareness Campaign
                   </p>
@@ -149,6 +156,7 @@ function Homebody() {
             <p>follow us on facebook</p> */}
           </div>
         </section>
+        {/* <Reporta/> */}
       </div>
     </div>
   );

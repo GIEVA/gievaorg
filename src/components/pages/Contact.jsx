@@ -66,7 +66,7 @@ function Contact() {
                   <br />
                   Friday: 9am-2pm
                   <br />
-                  +2347035250344
+                  +2347035250399
                   <br />
                 </p>
               </div>

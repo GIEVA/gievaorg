@@ -1,9 +1,10 @@
 {
   "name": "app-one",
-  "homepage": "http://gieva.com.ng",
+  "homepage": "http://gieva.org",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-pdf/renderer": "^3.4.4",
     "cra-template": "1.2.0",
     "owl.carousel": "^2.3.4",
     "react": "^18.2.0",
@@ -11,6 +12,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^5.2.1",
     "react-owl-carousel": "^2.3.3",
+    "react-pdf": "^9.1.0",
     "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
     "react-slideshow-image": "^4.3.1",

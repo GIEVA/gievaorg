@@ -132,8 +132,8 @@ function Sat() {
           </p>
           <br />
           <p>
-            There are currently nineteen (19) open centers for the SAT test in
-            Nigeria:
+            There are currently twenty-seven (27) open centers for the SAT test
+            in Nigeria:
           </p>
           <div
             style={{
@@ -153,49 +153,9 @@ function Sat() {
                 </th>
               </tr>
               <tr>
-                <td>Dority Int’l School</td>
-                <td>66106</td>
-                <td>ABA</td>
-              </tr>
-              <tr>
-                <td>Holy Child Col Ikoyi</td>
-                <td>66108</td>
+                <td>American International School of Lagos</td>
+                <td>66242 </td>
                 <td>LAGOS</td>
-              </tr>
-              <tr>
-                <td>Sapatti Int’l School</td>
-                <td>66111</td>
-                <td>KWARA</td>
-              </tr>
-              <tr>
-                <td>Olam-awu School</td>
-                <td>66112</td>
-                <td>ABUJA</td>
-              </tr>
-              <tr>
-                <td>Trinity Int’l College Ofada</td>
-                <td>66114</td>
-                <td>OGUN</td>
-              </tr>
-              <tr>
-                <td>Regina Pacis College</td>
-                <td>66116</td>
-                <td>ABUJA</td>
-              </tr>
-              <tr>
-                <td>Adorable British Sch</td>
-                <td>66418</td>
-                <td>ENUGU</td>
-              </tr>
-              <tr>
-                <td>Danbo International</td>
-                <td>66133</td>
-                <td>KADUNA</td>
-              </tr>
-              <tr>
-                <td>Mikon Institute of Tech</td>
-                <td>66132</td>
-                <td>BENIN</td>
               </tr>
               <tr>
                 <td>American Christian Acad.</td>
@@ -203,19 +163,24 @@ function Sat() {
                 <td>IBADAN</td>
               </tr>
               <tr>
-                <td>Hillcrest School</td>
-                <td>66160</td>
-                <td>JOS</td>
+                <td>Adorable British Sch</td>
+                <td>66418</td>
+                <td>ENUGU</td>
               </tr>
               <tr>
-                <td>Nigerian Turkish Int’l</td>
-                <td>66180</td>
-                <td>KADUNA</td>
-              </tr>
-              <tr>
-                <td>Int’l Sch Lagos – UNILAG</td>
-                <td>66235</td>
+                <td>Career Builders Academy</td>
+                <td>66418</td>
                 <td>LAGOS</td>
+              </tr>
+              <tr>
+                <td>Charles Dale Memorial International</td>
+                <td>66856</td>
+                <td>PORT HARCOURT</td>
+              </tr>
+              <tr>
+                <td>Cradle High school</td>
+                <td>66357</td>
+                <td>BENIN</td>
               </tr>
               <tr>
                 <td>Dansol School Ikeja</td>
@@ -223,14 +188,44 @@ function Sat() {
                 <td>LAGOS</td>
               </tr>
               <tr>
-                <td>Olashore Int’l School</td>
-                <td>66250</td>
-                <td>OSUN</td>
+                <td>Dority Int’l School</td>
+                <td>66106</td>
+                <td>ABA</td>
               </tr>
               <tr>
-                <td>Grund TVIG Int’l</td>
+                <td>Danbo International</td>
+                <td>66133</td>
+                <td>KADUNA</td>
+              </tr>
+              <tr>
+                <td>Federal University Of Agriculture Abeokuta</td>
+                <td>66165</td>
+                <td>Ogun</td>
+              </tr>
+              <tr>
+                <td>GrundTVIG Int’l Secondary School</td>
                 <td>66256</td>
                 <td>ONITSHA</td>
+              </tr>
+              <tr>
+                <td>Graceland International School</td>
+                <td>66256</td>
+                <td>ANAMBRA</td>
+              </tr>
+              <tr>
+                <td>Hillcrest School</td>
+                <td>66160</td>
+                <td>JOS</td>
+              </tr>
+              <tr>
+                <td>Holy Child Col Ikoyi</td>
+                <td>66108</td>
+                <td>LAGOS</td>
+              </tr>
+              <tr>
+                <td>Int’l Sch Lagos – UNILAG</td>
+                <td>66235</td>
+                <td>LAGOS</td>
               </tr>
               <tr>
                 <td>Jephtha Com. Sch</td>
@@ -238,14 +233,59 @@ function Sat() {
                 <td>PORT HARCOURT</td>
               </tr>
               <tr>
+                <td>Jesuit Memorial College</td>
+                <td>66443</td>
+                <td>PORT HARCOURT</td>
+              </tr>
+              <tr>
+                <td>Loyola Jesuit College</td>
+                <td>66117</td>
+                <td>ABUJA</td>
+              </tr>
+              <tr>
                 <td>Marist Comp Acad</td>
                 <td>66291</td>
                 <td>ABIA</td>
               </tr>
               <tr>
-                <td>Cradle High school</td>
-                <td>66357</td>
+                <td>Mikon Institute of Tech</td>
+                <td>66132</td>
                 <td>BENIN</td>
+              </tr>
+              <tr>
+                <td>Olashore Int’l School</td>
+                <td>66250</td>
+                <td>OSUN</td>
+              </tr>
+              <tr>
+                <td>Olam-awu School</td>
+                <td>66112</td>
+                <td>ABUJA</td>
+              </tr>
+              <tr>
+                <td>Oxbridge Tutorial College</td>
+                <td>66826</td>
+                <td>LAGOS</td>
+              </tr>
+              <tr>
+                <td>Regina Pacis College</td>
+                <td>66116</td>
+                <td>ABUJA</td>
+              </tr>
+              <tr>
+                <td>Roemichs International Schools</td>
+                <td>66189</td>
+                <td>KWARA</td>
+              </tr>
+              <tr>
+                <td>Supreme Education Foundation School</td>
+                <td>66204</td>
+                <td>LAGOS</td>
+              </tr>
+              <tr>
+                <td>Trinity Int’l College Ofada</td>
+                <td>66114</td>
+                <td>OGUN</td>
               </tr>
             </table>
           </div>
@@ -264,16 +304,16 @@ function Sat() {
               able to transfer such credits.
             </li>
             <li>
-              The digital SAT is currently written in 19 centers in Nigeria.
+              The digital SAT is currently written in 27 centers in Nigeria.
             </li>
             <li>
-              Currently the Test is written six times in a year (August 2024,
-              October 2024, November 2024, December2024, March 2025, May 2025,
-              June 2025).{" "}
+              Currently the Test is written seven times in a year (August,
+              October, November, December, March, May, June 2025).{" "}
             </li>
             <li>
-              With effect from March 2024, the SAT administration has become the
-              Digital SAT world-wide. <br />
+              With effect from March 2023, the SAT administration became
+              Digital. This means that the SAT is now a computer-based test.{" "}
+              <br />
             </li>
             <br />
           </ul>
@@ -319,7 +359,41 @@ function Sat() {
               <li>MAY 2, 2026</li>
               <li>JUNE 6 , 2026</li>
             </ul>
-            <a href="https://www.collegeboard.org/">Read more</a>
+            <br />
+          </div>
+          <h3>FURTHER INFORMATION</h3>
+          <br/>
+          <div className="">
+            <ul className="">
+              <li>
+                <a href="https://satsuite.collegeboard.org/sat/what-to-bring-do/id-requirements/">
+                  SAT ID REQUIREMENTS
+                </a>
+              </li>
+              <li>
+                <a href="https://satsuite.collegeboard.org/help-center/students/">
+                  STUDENT HELP CENTER
+                </a>
+              </li>
+              <li>
+                <a href="https://satsuite.collegeboard.org/sat/dates-deadlines/">
+                  SAT Test dates and Deadlines
+                </a>
+              </li>
+              <li>
+                <a href="https://satsuite.collegeboard.org/sat/device-lending/">
+                  AST DEVICE LOANER SYSTEM
+                </a>
+              </li>
+              <li>
+                <a href="https://satsuite.collegeboard.org/sat/registration/international-testing/fee/">
+                  LATE REGISTRATION
+                </a>
+              </li>
+            </ul>
+            <a href="https://blog.collegeboard.org/everything-you-need-know-about-digital-sat/">
+              Read more
+            </a>
           </div>
           <br />
         </div>

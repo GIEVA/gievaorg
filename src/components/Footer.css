@@ -734,10 +734,10 @@ section p {
 
 .zhe:hover {
   .dad {
-    animation: movel 30s infinite;
+    animation: movel 10s infinite;
   }
   .ceo {
-    animation: mover 30s infinite;
+    animation: mover 8s infinite;
   }
 }
 @keyframes movel {
@@ -745,7 +745,7 @@ section p {
     transform: translate(0);
   }
   50% {
-    transform: translate(200px);
+    transform: translate(70px);
   }
   100% {
     transform: translate(0);
@@ -756,7 +756,7 @@ section p {
     transform: translate(0);
   }
   50% {
-    transform: translate(-200px);
+    transform: translate(-50px);
   }
   100% {
     transform: translate(0);

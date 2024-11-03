@@ -23,12 +23,10 @@ function Services() {
       <section>
         <div className="edu">
           <p className="serveP">
-            GIEVA is the current International Representative for the SAT in
-            Nigeria. With the working relationships with Education Testing
-            Services (ETS) since 2007, GIEVA assists students who seek to study
-            in the United States with platforms for easy access to admission
-            process by facilitating registration, supplying of study resources,
-            and offering a holistic education, advising and learning services
+            GIEVA is a Service Provider of the College Board (CB) to oversee SAT
+            administration in Nigeria and to promote CB related educational
+            products especially AP to expand opportunities for African students
+            to develop the skills they need in a competitive world.
           </p>
 
           <h2 style={{ margin: "20px" }}>Apply for</h2>
@@ -52,7 +50,7 @@ function Services() {
               style={{ backgroundColor: "#e5d" }}
             >
               <h3>SAT</h3>
-              <p>Scholastic Aptitude Test (Undergraduate)</p>
+              <p>SAT (Undergraduate)</p>
               <Link to={"/Sat"} className="links">
                 <VscArrowRight />
               </Link>
